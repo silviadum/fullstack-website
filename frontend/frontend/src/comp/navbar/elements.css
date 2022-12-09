@@ -10,7 +10,10 @@
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   justify-content: space-evenly; 
-  }
+  @media screen and (max-width: 768px) {
+    display: none;
+}
+}
 
 .NavBtnLink2{
     font-family: 'Merriweather';
@@ -24,14 +27,18 @@
     transition: all 0.2s ease-in-out;
     text-decoration: none;
     justify-content: space-evenly; 
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
+   
+.NavBtnLink3{
+    background-color: rgba(0, 0, 0, 0);
+    height: 100%;
+    cursor: pointer;
+    z-index: 1;
     };
 
-.NavBtnLink3{
-    color: #fff;
-  display: flex;
-  height: 100%;
-  cursor: pointer;
-}
 
 .NavLink1{
     color: #fff;
@@ -62,4 +69,15 @@
 ;
 }
 
+.NavBtn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 768px)
+{
+    .NavBtn{
+        display: none;
+    }
+}
   

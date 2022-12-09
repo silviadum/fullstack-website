@@ -33,17 +33,16 @@ const Navbar = () => {
                 > Logare </p>
                 </NavBtnLink1>
         
-                <NavBtnLink2 
-                trigger={Button2}> 
+                <NavBtnLink2 trigger={Button2}> 
                 <p> Creare cont </p>
                 </NavBtnLink2>
 
                 <NavBtnLink3 trigger={Closebtn}>
-                    <img src={closepic}/>
+                    <img onClick={() =>[setButton1(true), setButton2(true), setButtonPopup1(false), setClosebtn(false)]}src={closepic}></img>
                 </NavBtnLink3>
 
             </NavBtn>
-
+        
         </Nav>
 
         <Popup1 trigger={ButtonPopup1}>

@@ -13,33 +13,24 @@ export const Nav = styled.nav`
   z-index: 10%;
 `;
 
-export const NavLink1 = styled(Link)`
-  color: #fff;
-  display: flex;
-  height: 100%;
-  cursor: pointer;
-  @media screen and (max-width: 768px) {
-    display: none;
-    top: 0;
-    right: 0;
-    transform: translate(-50%, 50%);
-    cursor: pointer;
-  }
-`;
+export function NavLink1 (props) {
+    return (
+      <div className="NavLink1">
+              {props.children}
 
-export const NavLink2 = styled(Link)`
-  color: #fff;
-  display: none;
-  height: 100%;
-  cursor: pointer;
-  @media screen and (max-width: 768px) {
-    display: block;
-    top: 0;
-    right: 0;
-    transform: translate(15%, 30%);
-    cursor: pointer;
-  }
-`;
+      </div>
+    )
+  };
+
+export function NavLink2 (props) {
+    return (
+      <div className="NavLink2">
+              {props.children}
+
+      </div>
+    )
+  };
+
 
 export const Menu = styled(Link)`
   display: none;
@@ -82,13 +73,14 @@ export function NavBtnLink3 (props) {
     )  : "";
 };
 
-export const NavBtn = styled.nav`
-  display: flex;
-  justify-content: space-evenly;
-  
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
-`;
+export function NavBtn (props) {
+    return (
+      <div className="NavBtn">
+              {props.children}
+
+      </div>
+    )
+  };
+
 
 
