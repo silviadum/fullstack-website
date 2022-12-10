@@ -8,6 +8,10 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <div className="Main">
+        <br></br>
+        <br></br>
+      </div>
     </Router>
   );
 }

@@ -4,14 +4,15 @@ import styled from 'styled-components';
 import menu from './menu.svg';
 import styles from './elements.css';
 
-export const Nav = styled.nav`
-  background-color: #fff;
-  height: ;
-  display: flex;
-  justify-content: space-between;
-  padding: 2%;
-  z-index: 10%;
-`;
+
+export function Nav (props) {
+  return (
+    <div className="Nav">
+            {props.children}
+
+    </div>
+  )
+};
 
 export function NavLink1 (props) {
     return (

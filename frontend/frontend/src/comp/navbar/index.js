@@ -46,7 +46,14 @@ const Navbar = () => {
         </Nav>
 
         <Popup1 trigger={ButtonPopup1}>
-            <h1> 123</h1>
+            <h1> Welcome back </h1>
+            <p1> Username </p1>
+            <br></br> <br></br>
+            <input id="username" name="username" className="input1"/>
+            <br></br> <br></br>
+            <p1> Username </p1>
+            <br></br> <br></br>
+            <input id="username" name="username" className="input1"/>
         </Popup1>
     </div>
   )

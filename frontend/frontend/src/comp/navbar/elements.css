@@ -1,3 +1,24 @@
+.input{
+  tab-size: 20%;
+  box-sizing: border-box;
+  position: absolute;
+  width: 296px;
+  height: 41px;
+  left: 94px;
+  top: 291px;
+  border: 1px solid #252F65;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+.Nav{
+  background-color: rgb(255, 255, 255);
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+
 .NavBtnLink1{
   font-family: 'Merriweather';
   font-style: normal;
@@ -8,8 +29,7 @@
   padding: 1px 20px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  text-decoration: none;
-  justify-content: space-evenly; 
+  justify-content: space-between; 
   @media screen and (max-width: 768px) {
     display: none;
 }
@@ -36,15 +56,19 @@
     background-color: rgba(0, 0, 0, 0);
     height: 100%;
     cursor: pointer;
-    z-index: 1;
-    };
+    }
 
 
 .NavLink1{
-    color: #fff;
-  display: flex;
-  height: 100%;
-  cursor: pointer;
+width: 197px;
+height: 56px;
+left: 45px;
+top: 30px;
+display: flex;
+padding-top: 0.5%;
+cursor: pointer;
+
+background: rgb(255, 255, 255);
   @media screen and (max-width: 768px) {
     display: none;
     top: 0;
@@ -55,7 +79,7 @@
 }
 
 .NavLink2{
-    color: #fff;
+  background-color: rgb(255, 255, 255);
   display: none;
   height: 100%;
   cursor: pointer;
