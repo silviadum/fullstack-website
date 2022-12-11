@@ -11,12 +11,22 @@
   font-size: 25px;
 }
 
+.fixed{
+  position: fixed;
+}
+
+.menu{
+  display: none;
+}
+
 .Nav{
   background-color: rgb(255, 255, 255);
-  height: 50%;
+  height: 5vh;
   display: flex;
   justify-content: space-between;
   padding: 1%;
+  position: fixed;
+  width: 200vh;
 }
 
 .NavBtnLink1{
@@ -62,11 +72,10 @@
 .NavLink1{
 width: 197px;
 height: 56px;
-left: 45px;
-top: 30px;
 display: flex;
-padding-top: 0.5%;
 cursor: pointer;
+margin-left: 1%;
+margin-top: 1%;
 
 background: rgb(255, 255, 255);
   @media screen and (max-width: 768px) {
@@ -90,18 +99,30 @@ background: rgb(255, 255, 255);
     transform: translate(15%, 30%);
     cursor: pointer;
   }
-;
+
 }
 
 .NavBtn{
+    margin-top: 1%;
     display: flex;
     justify-content: space-evenly;
+    margin-right: 2%;
 }
 
 @media screen and (max-width: 768px)
 {
-    .NavBtn{
-        display: none;
-    }
+  .NavBtnLink1{
+    display: none;
+  } 
+  .NavBtnLink2{
+    display: none;
+  } 
+  .menu{
+    display: flex;
+    padding: 10% 100% 10% 10%;
+    width: 100px;
+    box-sizing: border-box;
+    background: #ffffff;
+  }
 }
   

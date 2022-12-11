@@ -15,17 +15,15 @@ const Navbar = () => {
     const [Closebtn, setClosebtn] = useState(false);
     return (
     <div>
-        <Nav>
+        <Nav className="">
             <NavLink1 to="/">
                 <img src={logo} alt="/"></img>
             </NavLink1>
             <NavLink2 to="/">
                 <img src={logo} alt="/"></img>
             </NavLink2>
+            
 
-            <Menu>
-                <img src={menu} alt="/"></img>
-            </Menu>
             <NavBtn>
                 <NavBtnLink1 trigger={Button1}>
                 <p onClick={() =>[setButton2(false), setButton1(false), setButtonPopup1(true), setClosebtn(true)]}
@@ -41,7 +39,12 @@ const Navbar = () => {
                     <img onClick={() =>[setButton1(true), setButton2(true), setButtonPopup1(false), setClosebtn(false)]}src={closepic}></img>
                 </NavBtnLink3>
 
+                <Menu>
+                    <img src={menu}></img>
+                </Menu>
+
             </NavBtn>
+            
         
         </Nav>
 

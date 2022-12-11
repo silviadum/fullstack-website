@@ -1,16 +1,18 @@
 import React from 'react';
 import './App.css';
 import Navbar from './comp/navbar';
+import Main  from './comp/main';
+import Upload from './comp/upload';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Popup1 from './comp/navbar/popup/popup1';
+
 
 function App() {
   return (
     <Router>
+      <div className="body">
       <Navbar />
-      <div className="Main">
-        <br></br>
-        <br></br>
+      <Main />
+      <Upload />
       </div>
     </Router>
   );

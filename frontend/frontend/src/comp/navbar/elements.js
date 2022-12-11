@@ -32,19 +32,16 @@ export function NavLink2 (props) {
     )
   };
 
+export function Menu (props) {
+    return (
+      <div className="menu">
+              {props.children}
 
-export const Menu = styled(Link)`
-  display: none;
-  color: #000;
+      </div>
+    )
+  };
 
-  @media screen and (max-width: 768px) {
-    display: block;
-    top: 0;
-    right: 0;
-    transform: translate(-50%, 50%);
-    cursor: pointer;
-  }
-`;
+
 
 export function NavBtnLink1(props) {
     return (props.trigger) ? (

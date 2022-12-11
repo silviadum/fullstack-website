@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Roboto:wght@300&display=swap');
+
+.cont{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: #ffffff;
+    
+}
+
+
+.left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -5%;
+}
+
+
+.text1{
+    font-family: 'Merriweather';
+    width: 55%;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 269%;
+    line-height: 121%;
+    text-align: center;
+    color: #252F65;
+}
+
+.text2{
+    width: 40%;
+    font-family: 'Roboto'; 
+    font-style: normal;
+    font-weight: 300;
+    font-size: 125%;
+    line-height: 121%;
+    text-align: center;
+    color: #252F65;
+}
+
+.btn{
+    background: #6F3096;
+    border-radius: 5px;
+    width: 20%;
+    height: 10%;
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 125%;
+    line-height: 325%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.img1{
+    position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+    .cont{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
