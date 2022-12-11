@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './1.svg';
 import menu from './menu.svg';
-import {Nav, NavLink1, NavLink2, NavBtn, NavBtnLink1, NavBtnLink3, Menu, NavBtnLink2} from './elements';
+import {Nav, NavLink1, NavBtn, NavBtnLink1, NavBtnLink3, Menu, NavBtnLink2} from './elements';
 import Popup1 from './popup/popup1';
 import { useState } from 'react';
 import style from './elements.css';
@@ -19,9 +19,6 @@ const Navbar = () => {
             <NavLink1 to="/">
                 <img src={logo} alt="/"></img>
             </NavLink1>
-            <NavLink2 to="/">
-                <img src={logo} alt="/"></img>
-            </NavLink2>
             
 
             <NavBtn>

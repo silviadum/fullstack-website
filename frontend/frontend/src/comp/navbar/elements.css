@@ -77,30 +77,8 @@ cursor: pointer;
 margin-left: 1%;
 margin-top: 1%;
 
-background: rgb(255, 255, 255);
-  @media screen and (max-width: 768px) {
-    display: none;
-    top: 0;
-    right: 0;
-    transform: translate(-50%, 50%);
-    cursor: pointer;
-  }
 }
 
-.NavLink2{
-  background-color: rgb(255, 255, 255);
-  display: none;
-  height: 100%;
-  cursor: pointer;
-  @media screen and (max-width: 768px) {
-    display: block;
-    top: 0;
-    right: 0;
-    transform: translate(15%, 30%);
-    cursor: pointer;
-  }
-
-}
 
 .NavBtn{
     margin-top: 1%;
@@ -123,6 +101,9 @@ background: rgb(255, 255, 255);
     width: 100px;
     box-sizing: border-box;
     background: #ffffff;
+  }
+  .NavLink1{
+    display: flex;
   }
 }
   

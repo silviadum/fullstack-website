@@ -23,14 +23,6 @@ export function NavLink1 (props) {
     )
   };
 
-export function NavLink2 (props) {
-    return (
-      <div className="NavLink2">
-              {props.children}
-
-      </div>
-    )
-  };
 
 export function Menu (props) {
     return (
