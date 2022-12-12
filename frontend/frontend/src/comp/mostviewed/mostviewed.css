@@ -1,14 +1,15 @@
 .ContainerMostViewed{
     display: flex;
     flex-direction: column;
+    height: 70vh;
+    margin-bottom: 3%;
 }
 
 .TextMostViewed{
-    position: absolute;
-    width: 231px;
-    height: 45px;
-    left: 69px;
-    top: 1526px;
+    width: 20%;
+    height: 25%;
+    margin-top: 5%;
+    margin-bottom: 1%;
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 700;
@@ -21,4 +22,8 @@
 .PicsMostViewed{
     display: flex;
     flex-direction: row;
+    width: 92%;
+    height: 130%;
+    margin: auto;
+    justify-content: space-between;
 }

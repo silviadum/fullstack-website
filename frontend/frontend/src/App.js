@@ -3,7 +3,8 @@ import './App.css';
 import Navbar from './comp/navbar';
 import Main  from './comp/main';
 import Upload from './comp/upload';
-import MostViewed from './comp/mostviewed';
+import Mostviewed from './comp/mostviewed';
+import Footer from './comp/footer';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 
@@ -14,7 +15,8 @@ function App() {
       <Navbar />
       <Main />
       <Upload />
-      <MostViewed />
+      <Mostviewed />
+      <Footer />
       </div>
     </Router>
   );
