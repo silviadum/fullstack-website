@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './comp/navbar';
 import Main  from './comp/main';
 import Upload from './comp/upload';
+import MostViewed from './comp/mostviewed';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Main />
       <Upload />
+      <MostViewed />
       </div>
     </Router>
   );
