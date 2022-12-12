@@ -1,109 +1,34 @@
-.input{
-  tab-size: 20%;
-  box-sizing: border-box;
-  position: absolute;
-  width: 296px;
-  height: 41px;
-  left: 94px;
-  top: 291px;
-  border: 1px solid #252F65;
-  border-radius: 5px;
-  font-size: 25px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700;900&family=Roboto:wght@300&display=swap');
 
-.fixed{
-  position: fixed;
-}
-
-.menu{
-  display: none;
-}
-
-.Nav{
-  background-color: rgb(255, 255, 255);
-  height: 5vh;
+.ContainerNav{
+  width: 100%;
+  margin: auto;
+  height: 12vh;
   display: flex;
-  justify-content: space-between;
-  padding: 1%;
+  flex-direction: row;
   position: fixed;
-  width: 200vh;
+  background-color: #fff;
 }
 
-.NavBtnLink1{
+.LeftNav{
+  display: flex;
+  margin: auto;
+  width: 80%;
+  height: 60%;
+}
+
+.RightNav{
+  display: flex;
+  width: 10%;
+  margin: auto;
+  margin-right: 4%;
+  justify-content: space-between;
+  flex-direction: row;
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 125%;
   color: #06114F;
-  background: #fff;
-  padding: 1px 20px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  justify-content: space-between; 
-  @media screen and (max-width: 768px) {
-    display: none;
 }
-}
-
-.NavBtnLink2{
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    color: #06114F;
-    background: #fff;
-    padding: 1px 20px;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    text-decoration: none;
-    justify-content: space-evenly; 
-    @media screen and (max-width: 768px) {
-        display: none;
-    }
-}
-   
-.NavBtnLink3{
-    background-color: rgba(0, 0, 0, 0);
-    height: 100%;
-    cursor: pointer;
-    }
-
-
-.NavLink1{
-width: 197px;
-height: 56px;
-display: flex;
-cursor: pointer;
-margin-left: 1%;
-margin-top: 1%;
-
-}
-
-
-.NavBtn{
-    margin-top: 1%;
-    display: flex;
-    justify-content: space-evenly;
-    margin-right: 2%;
-}
-
-@media screen and (max-width: 768px)
-{
-  .NavBtnLink1{
-    display: none;
-  } 
-  .NavBtnLink2{
-    display: none;
-  } 
-  .menu{
-    display: flex;
-    padding: 10% 100% 10% 10%;
-    width: 100px;
-    box-sizing: border-box;
-    background: #ffffff;
-  }
-  .NavLink1{
-    display: flex;
-  }
-}
-  

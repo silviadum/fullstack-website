@@ -3,7 +3,7 @@ import styles from './upload.css';
 
 const upload = () => {
   return (
-    <div className="containupl">
+    <div className="containupl" id="down">
       <div className="boxupl">
         <div className="lefttextupl">
           <div className="textupl1"> Ai tupeu și crezi că ești amuzant?</div>
@@ -12,10 +12,10 @@ const upload = () => {
         </div>
         <div className="rightforms">
           <div className="righttextupl"> Descriere </div>
-          <input className="InputUpload1"></input>
+          <input type="text" className="InputUpload1" placeholder="descriere"></input>
           <br></br>
           <div className="righttextupl"> Meme (jpg, jpeg, png, gif)</div>
-          <input className="InputUpload2"></input>
+          <input className="InputUpload2" placeholder="drag & drop image or click to upload" ></input>
           <br></br>
           <div className="ButonUpload"> Trimite </div>
         </div>

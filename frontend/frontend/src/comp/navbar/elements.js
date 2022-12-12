@@ -1,37 +1,7 @@
-import { FaBars } from 'react-icons/fa';
-import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 import menu from './menu.svg';
 import styles from './elements.css';
 
-
-export function Nav (props) {
-  return (
-    <div className="Nav">
-            {props.children}
-
-    </div>
-  )
-};
-
-export function NavLink1 (props) {
-    return (
-      <div className="NavLink1">
-              {props.children}
-
-      </div>
-    )
-  };
-
-
-export function Menu (props) {
-    return (
-      <div className="menu">
-              {props.children}
-
-      </div>
-    )
-  };
 
 
 
@@ -63,14 +33,7 @@ export function NavBtnLink3 (props) {
     )  : "";
 };
 
-export function NavBtn (props) {
-    return (
-      <div className="NavBtn">
-              {props.children}
 
-      </div>
-    )
-  };
 
 
 
