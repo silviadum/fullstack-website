@@ -1,10 +1,22 @@
 import React from 'react'
+import { useDrag } from 'react-dnd';
+import { ItemTypes } from './Constants';
 
-function drag_drop(event) {
-    event.preventDefault();
-    alert(event.dataTransfer.files[0]);
-    alert(event.dataTransfer.files[0].name);
-    alert(event.dataTransfer.files[0].size+" bytes");  
-}
+export default function dragdrop({ isDragging, text }) {
+    const [{ opacity }, dragRef] = useDrag(
+      () => ({
+        type: ItemTypes.CARD,
+        item: { text },
+        collect: (monitor) => ({
+          opacity: monitor.isDragging() ? 0.5 : 1
+        })
+      }),
+      []
+    )
+    return (
+      <div ref={dragRef} style={{ opacity }}>
+        {text}
+      </div>
+    )
+  }
 
-export default drag_drop

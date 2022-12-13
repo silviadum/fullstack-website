@@ -24,13 +24,11 @@ export function NavBtnLink2 (props) {
     )  : "";
   };
 
-export function NavBtnLink3 (props) {
-    return (props.trigger) ? (
-      <div className="NavBtnLink3">
-              {props.children}
-
+export function CloseBtnPopup () {
+    return (
+      <div className="CloseBtnPopup">
       </div>
-    )  : "";
+    )
 };
 
 

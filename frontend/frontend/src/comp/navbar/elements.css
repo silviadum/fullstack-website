@@ -8,6 +8,7 @@
   flex-direction: row;
   position: fixed;
   background-color: #fff;
+  z-index: 2;
 }
 
 .LeftNav{
@@ -19,7 +20,7 @@
 
 .RightNav{
   display: flex;
-  width: 10%;
+  width: 12%;
   margin: auto;
   margin-right: 4%;
   justify-content: space-between;

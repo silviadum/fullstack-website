@@ -1,0 +1,117 @@
+.AbsolutePopup2{
+    position: fixed;
+    background: rgba(111, 48, 150, 0.7);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContainerPopup2{
+    width: 25%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.BarPopup2{
+    background-color: #fff;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LogoBarPopup2{
+    display: flex;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+.CloseBtnPopup{
+    display: flex;
+    margin-top: 1%;
+    margin-right: 3%;
+    cursor: pointer;
+}
+
+.MainPopup2{
+    background-color: #6F3096;
+    height: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BoxPopup2{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    border-radius: 3%;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Text1Popup2{
+    font-family: 'Merriweather';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+
+color: #6F3096;
+margin-bottom: 10%;
+margin-top: -30%;
+}
+
+.Text2Popup2{
+    height: 5%;
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+
+color: #252F65;
+}
+
+.InputPopup2{
+    box-sizing: border-box;
+    width: 70%;
+    height: 8%;
+    border: 1px solid #06114F;
+    border-radius: 5px;
+    font-family: 'Merriweather';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+
+
+color: rgba(6, 17, 79, 0.3);
+    padding: 4%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.BtnPopup2{
+    background: #6F3096;
+    border-radius: 5px;
+    height: 10%;
+    width: 50%;
+    margin-top: 4%;
+    margin-bottom: -25%;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 280%;
+    text-align: center;
+    color: #FFFFFF;
+}
+

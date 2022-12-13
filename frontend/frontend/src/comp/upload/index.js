@@ -12,7 +12,7 @@ const upload = () => {
         </div>
         <div className="rightforms">
           <div className="righttextupl"> Descriere </div>
-          <input type="text" className="InputUpload1" placeholder="descriere"></input>
+          <input className="InputUpload1" placeholder="descriere"></input>
           <br></br>
           <div className="righttextupl"> Meme (jpg, jpeg, png, gif)</div>
           <input className="InputUpload2" placeholder="drag & drop image or click to upload" ></input>
