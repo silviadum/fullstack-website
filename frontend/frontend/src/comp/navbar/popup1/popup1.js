@@ -1,14 +1,18 @@
 import React from 'react';
 import styles from './popup1.css';
-import { CloseBtnPopup } from '../elements';
+import { CloseBtnPopup, NavBtnLink2 } from '../elements';
 import logo from '../1.svg';
 import close from '../close.png';
 import { useState } from 'react';
 import { useRef } from 'react';
+import Navbar from '..';
+import { NavBtnLink3 } from '../elements';
 
 function Popup1 (props) {
   const email=useRef()
   const password=useRef()
+  const getEmail=localStorage.getItem("emailData")
+  const getPassword=localStorage.getItem("passwordData")
   const handleSubmit=()=>{
     if(email.current.value=="abc@gmail.com"&&password.current.value=="12345"){
         localStorage.setItem("emailData","abc@gmail.com")
@@ -35,9 +39,10 @@ function Popup1 (props) {
           <input type="text" className="InputPopup1" ref={email} placeholder="username"></input>
           <div className="Text2Popup1"> Parola </div>
           <input type="password" className="InputPopup1" ref={password} placeholder="parola"></input>
-          <div className="BtnPopup1"> Logare </div>
+          <button className="BtnPopup1"> Logare </button>
         
         </form>
+      
       </div>
     </div>
    </div>

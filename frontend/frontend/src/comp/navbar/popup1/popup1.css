@@ -118,5 +118,8 @@ color: rgba(6, 17, 79, 0.3);
     text-align: center;
     color: #FFFFFF;
     cursor: pointer;
+    padding: 0;
+    border: none;
+    
 }
 

@@ -24,6 +24,7 @@ export function NavBtnLink2 (props) {
     )  : "";
   };
 
+  
 export function CloseBtnPopup () {
     return (
       <div className="CloseBtnPopup">
