@@ -9,9 +9,9 @@ const footer = () => {
     <div className="ContainerFooter">
       <div className="MiddleFooter">
         <div className="LinksFooter">
-            <img src={icon1}></img>
-            <img src={icon2}></img>
-            <img src={icon3}></img>
+            <a href='https://www.instagram.com/lsacbucuresti/'><img src={icon1}></img> </a>
+            <a href='https://www.twitch.tv/lsac_bucuresti'><img src={icon2}></img> </a>
+            <a href='https://www.facebook.com/LsacBucuresti/'><img src={icon3}></img> </a>
         </div>
         <div className="TextFooter"> Copyright 2022 | La muncă, nu la întins mâna.</div>
       </div>  

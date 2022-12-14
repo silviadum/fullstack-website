@@ -1,22 +1,17 @@
-import React from 'react'
-import { useDrag } from 'react-dnd';
-import { ItemTypes } from './Constants';
+import React, { useState } from "react";
+import { FileUploader } from "react-drag-drop-files";
+import styles from './upload.css';
 
-export default function dragdrop({ isDragging, text }) {
-    const [{ opacity }, dragRef] = useDrag(
-      () => ({
-        type: ItemTypes.CARD,
-        item: { text },
-        collect: (monitor) => ({
-          opacity: monitor.isDragging() ? 0.5 : 1
-        })
-      }),
-      []
-    )
-    return (
-      <div ref={dragRef} style={{ opacity }}>
-        {text}
-      </div>
-    )
-  }
+const fileTypes = ["JPG", "JPEG", "PNG", "GIF"];
 
+function DragDrop() {
+  const [file, setFile] = useState(null);
+  const handleChange = (file) => {
+    setFile(file);
+  };
+  return (
+    <FileUploader handleChange={handleChange} name="file" types={fileTypes} />
+  );
+}
+
+export default DragDrop;

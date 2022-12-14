@@ -65,7 +65,7 @@
     font-family: 'Merriweather';
 font-style: normal;
 font-weight: 700;
-font-size: 32px;
+font-size: 200%;
 
 color: #6F3096;
 margin-bottom: 10%;
@@ -78,8 +78,8 @@ margin-top: -30%;
 font-family: 'Merriweather';
 font-style: normal;
 font-weight: 700;
-font-size: 18px;
-line-height: 20px;
+font-size: 110%;
+line-height: 150%;
 
 color: #252F65;
 }
@@ -93,8 +93,8 @@ color: #252F65;
     font-family: 'Merriweather';
 font-style: normal;
 font-weight: 700;
-font-size: 16px;
-line-height: 20px;
+font-size: 100%;
+line-height: 150%;
 
 
 color: rgba(6, 17, 79, 0.3);
@@ -113,7 +113,7 @@ color: rgba(6, 17, 79, 0.3);
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 100%;
     line-height: 280%;
     text-align: center;
     color: #FFFFFF;

@@ -1,4 +1,5 @@
 import React from 'react';
+import DragDrop from './draganddrop';
 import styles from './upload.css';
 
 const upload = () => {
@@ -15,7 +16,9 @@ const upload = () => {
           <input className="InputUpload1" placeholder="descriere"></input>
           <br></br>
           <div className="righttextupl"> Meme (jpg, jpeg, png, gif)</div>
-          <input className="InputUpload2" placeholder="drag & drop image or click to upload" ></input>
+
+          <DragDrop className="InputUpload2" placeholder="drag & drop image or click to upload" ></DragDrop>
+          
           <br></br>
           <div className="ButonUpload"> Trimite </div>
         </div>

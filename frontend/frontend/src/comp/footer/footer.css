@@ -16,13 +16,13 @@
 }
 
 .LinksFooter{
-    flex-direction: row;
     display: flex;
     flex-direction: row;
-    width: 7%;
+    width: 5%;
     height: 25%;
     margin: auto;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .TextFooter{
@@ -32,7 +32,7 @@
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 120%;
     line-height: 121.1%;
     text-align: center;
     color: #FFFFFF;
