@@ -1,11 +1,18 @@
+require('./config/db'); 
+
 const express = require('express');
 const app = express();
 
-app.get('/test', function(req, res){
-   res.status(200).send("Hello world!");
-});
+const UserRouter = require('./api/user');
 
-app.listen(3001, function(err){
+const bodyParser = require('express').json;
+app.use(bodyParser());
+
+app.use('/user', UserRouter);
+
+
+app.listen(3000, function(err){
     if (err) console.log("Error in server setup")
-    console.log("Server listening on Port", 3001);
+    console.log("Server listening on Port", 3000);
 })
+
