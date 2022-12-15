@@ -1,6 +1,6 @@
 # lsacit
 
-FRONTEND
+  FRONTEND
 
 Pachete ce trebuie instalate:
 -dotenv
@@ -23,7 +23,7 @@ TASK4: ✓
 
 TASK5: ✓
 
-BACKEND
+  BACKEND
 
 Pachete ce trebuie instalate:
 -dotenv
