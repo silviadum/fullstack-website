@@ -78,12 +78,11 @@ The app runs at `http://localhost:3000`.
 
 ## Test Login Credentials
 
-To test the logout button locally, use:
+To test the login locally, use:
 
 - **Username:** `abc@gmail.com`
 - **Password:** `12345`
 
 ## Notes
 
-- Make sure the backend is running before starting the frontend.
 - Update the `.env` values to match your own MongoDB connection and ports.
